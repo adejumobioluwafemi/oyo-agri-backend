@@ -1,0 +1,32 @@
+🛠️ How to use
+
+Reset your DB:
+
+psql -U postgres -d oyo_agro_db -f database/schema/002_drop_all.sql
+psql -U postgres -f database/schema/002_init_schema.sql
+psql -U postgres -d oyo_agro_db -f database/seeds/002_seed_data.sql
+
+
+Seed fake data:
+
+psql -U postgres -d oyo_agro_db -f database/seeds/002_fake_data.sql
+
+Using pg_dump CLI:
+
+# Custom format (recommended for pg_restore)
+pg_dump -U postgres -d oyo_agro_db -F c -f oyo_agro_db.backup
+
+# Or plain SQL (readable)
+pg_dump -U postgres -d oyo_agro_db -F p -f oyo_agro_db.sql
+
+
+Restore the backup
+Custom format (.backup):
+
+pg_restore -U postgres -d oyo_agro_db oyo_agro_db.backup
+
+
+Plain SQL dump (.sql):
+
+psql -U postgres -d oyo_agro_db -f oyo_agro_db.sql
+
