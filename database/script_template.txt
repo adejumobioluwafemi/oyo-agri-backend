@@ -30,3 +30,8 @@ Plain SQL dump (.sql):
 
 psql -U postgres -d oyo_agro_db -f oyo_agro_db.sql
 
+Indexes for oyo_agro_db:
+psql -U postgres -f database/schema/003_add_indexes.sql
+
+Access Control schemas for oyo_agro_db:
+psql -U postgres -f database/schema/003_accesscontrol_schema.sql
