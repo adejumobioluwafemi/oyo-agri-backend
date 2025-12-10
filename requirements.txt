@@ -1,0 +1,7 @@
+numpy
+pandas
+ipykernel
+sqlalchemy 
+psycopg2-binary
+rapidfuzz 
+openpyxl

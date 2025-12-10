@@ -1,0 +1,13 @@
+row_idx,reason
+47,Row 47 error: 'int' object is not subscriptable
+92,empty enterprise field
+140,Row 140 error: 'int' object is not subscriptable
+141,Row 141 error: 'int' object is not subscriptable
+152,Row 152 error: 'int' object is not subscriptable
+153,Row 153 error: 'int' object is not subscriptable
+370,Row 370 error: 'int' object is not subscriptable
+378,Row 378 error: 'int' object is not subscriptable
+380,Row 380 error: 'int' object is not subscriptable
+404,Row 404 error: 'int' object is not subscriptable
+405,Row 405 error: 'int' object is not subscriptable
+414,Row 414 error: 'int' object is not subscriptable
